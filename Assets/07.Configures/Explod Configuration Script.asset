@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cf918b03fafa124fa1ba7643d780114, type: 3}
+  m_Name: Explod Configuration Script
+  m_EditorClassIdentifier: 
+  ExplodePrefab: {fileID: 8315694323342431579, guid: 196ac8d4089be1843a99aa2d5f91a224,
+    type: 3}
+  minTime: 0.05
+  maxTime: 0.25
+  explosionRadius: 10
+  explosionForce: 1000
+  debrisSounds:
+  - {fileID: 8300000, guid: f8fd487d40a01ed4d93646ed55b01caa, type: 3}
+  - {fileID: 8300000, guid: 1e53cdfa1ed59454bbb1043449220f03, type: 3}
+  - {fileID: 8300000, guid: 60edd00008b29dd428e0a9ebfd7b83ce, type: 3}
+  - {fileID: 8300000, guid: 2674533448d9ec84fa4fcdb4167cf107, type: 3}
+  - {fileID: 8300000, guid: 74ae15352e8603f41895eaf71d4ed3d6, type: 3}
+  explosionSounds:
+  - {fileID: 8300000, guid: dd0264e11df5d694fbe924abc3e80301, type: 3}
+  - {fileID: 8300000, guid: ca80aad89fdc47a4b91e62a663ebd1f0, type: 3}
+  - {fileID: 8300000, guid: 0579dc5d712b04b4291909f2dd3fd64e, type: 3}
+  - {fileID: 8300000, guid: 2cc6c6aebec9fd343aab9a4451b7e5e8, type: 3}
+  - {fileID: 8300000, guid: f51e493a8b9df094b868413e03a7d0e1, type: 3}
+  - {fileID: 8300000, guid: 37a8c4b99174fa742938356c88331c14, type: 3}

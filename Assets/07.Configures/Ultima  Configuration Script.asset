@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cf918b03fafa124fa1ba7643d780114, type: 3}
+  m_Name: Ultima  Configuration Script
+  m_EditorClassIdentifier: 
+  ExplodePrefab: {fileID: 8315694323342431579, guid: 196ac8d4089be1843a99aa2d5f91a224,
+    type: 3}
+  minTime: 0.05
+  maxTime: 0.25
+  explosionRadius: 12.5
+  explosionForce: 1000
+  debrisSounds: []
+  explosionSounds: []
