@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1483081037963563892
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1483081037963563893}
+  - component: {fileID: 1483081037963563898}
+  m_Layer: 0
+  m_Name: WeaponDB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1483081037963563893
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483081037963563892}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1483081037963563898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483081037963563892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c11d19e9f618e4989284dd006a07f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shootWeapons:
+  - {fileID: 1869463228, guid: 9f8b24713ca34ef49acf79ca2ec43d53, type: 3}
+  - {fileID: 6016085576661165043, guid: 6616f0a8ee050c84ebeb033ba901a0ce, type: 3}
+  - {fileID: 5364695876294976874, guid: 23f591cb5946c3c4f860386ae0c1aac9, type: 3}
+  - {fileID: 1051683783, guid: 90a71fc998c3e914ca5abd0fd100e08f, type: 3}
+  - {fileID: 4513636939828396923, guid: f5fee7a920d2f524db293fa1f4b7510d, type: 3}
+  - {fileID: 1157041632719929056, guid: cc3c68ad2957a364ea19020b85cba0d8, type: 3}
+  - {fileID: 4032154817420772678, guid: 875d5bfff26225541a086f72f1c9913f, type: 3}
+  - {fileID: 8256189679702616841, guid: 211ac184382c76b499295dd5579d5bc2, type: 3}
+  - {fileID: 1044174108582099509, guid: d4bbe1720f85289499839caf171fbcdd, type: 3}
+  - {fileID: 439379959136587565, guid: 5ec978e6a7ab5584aab1b3a91668f94c, type: 3}
+  - {fileID: 1291267348430540595, guid: 0cd8eb04f791eb04287108ca728574d1, type: 3}
+  throwWeapons:
+  - {fileID: 6318580715862389499, guid: 0437525260495b342a8458deed94dcbb, type: 3}
+  - {fileID: 6534901550135498393, guid: f84429c53a1fa5546b80d454996201fd, type: 3}
+  - {fileID: 8109374056984390231, guid: f111268753aeaf442992ade2a0f265fc, type: 3}
+  - {fileID: 6318580715862389499, guid: 7246042a16a85a445b0c5c15480c7cfa, type: 3}
+  - {fileID: 6318580715862389499, guid: 07a60662d84b07540b1d6b784b280609, type: 3}
+  - {fileID: 6318580715862389499, guid: 23760c263f1f39347ad0f26b315c87c6, type: 3}
+  - {fileID: 6318580715862389499, guid: 0afc5f6c017727a48978bf800a4cdacd, type: 3}
+  meleeWeapons:
+  - {fileID: 4221125662932942143, guid: 914fc16d971ba6a4c8530b8fd855417b, type: 3}
+  - {fileID: 4296632261514872517, guid: 0496b85df02f3fc4cbf3f3c2c8b95a18, type: 3}
+  shootWeaponObtainedIndex: 0
+  throwWeaponObtainedIndex: 0
+  meleeWeaponObtainedIndex: 0
+  WeaponLevel: 0

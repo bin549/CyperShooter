@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1557076636939663915
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1557076636939663918}
+  - component: {fileID: 1557076636939663913}
+  - component: {fileID: 1557076636939663912}
+  m_Layer: 0
+  m_Name: CarSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1557076636939663918
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557076636939663915}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 10.990991, y: -0.19999999, z: 17.914814}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1557076636939663913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557076636939663915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d1fc536dc406f5468eb7f44fb08657c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  cars:
+  - car: {fileID: -2437438070676177413, guid: 36a04e7ff9726d044a514ceb68206a8a, type: 3}
+    showPossibility: 0
+  - car: {fileID: 2060414061, guid: 54b698fdec6dc4c44aa53d88c6277bb6, type: 3}
+    showPossibility: 0
+  - car: {fileID: 3523960512236648303, guid: 70b6bff928b6e4749be5df23ac6f5717, type: 3}
+    showPossibility: 0
+  - car: {fileID: -7462071137414838690, guid: c6ff8ebb827128c47a800698d2d73a42, type: 3}
+    showPossibility: 0
+  - car: {fileID: 1887419322, guid: 1f5d7c72556b1504c8df11b6d42ebe8b, type: 3}
+    showPossibility: 0
+  - car: {fileID: 0}
+    showPossibility: 0
+--- !u!114 &1557076636939663912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557076636939663915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ea5d2c0a4cb6464d9630de52cd8f32c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  waypoints: []
+  spawnerEffect: {fileID: 170218, guid: 971e93b4fe5aba24384788253fd00a84, type: 3}
+  timeBetweenSpawns: 5
+  spawn_Timer: 0
