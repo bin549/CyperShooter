@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/01.Scenes/00-ChooseMode.unity
+    guid: cff1e50e9970b834cb47266c1130735a
+  - enabled: 1
+    path: Assets/01.Scenes/00-OfflineMode.unity
+    guid: cbef00991a5bfc24ebaec3fcb4b93f96
+  - enabled: 1
+    path: Assets/01.Scenes/00-OnlineMode.unity
+    guid: 5be9d8016b16beb42bb3b1c7cdd71d90
+  - enabled: 1
+    path: Assets/01.Scenes/01-Game.unity
+    guid: ec06e860de4a4724885f30e24d3e729a
+  - enabled: 1
+    path: Assets/01.Scenes/03-Game.unity
+    guid: bf5200bec67d4a945a735cec302bfec7
+  - enabled: 1
+    path: Assets/01.Scenes/02-Level00.unity
+    guid: 5daa6d3b5a48d304a96b3adf85b14bac
+  - enabled: 1
+    path: Assets/01.Scenes/02-Level01.unity
+    guid: 93534c211ba37794396ed3036b6585b5
+  - enabled: 1
+    path: Assets/01.Scenes/02-Level02.unity
+    guid: 57212478170f5344480d16fb1039838e
+  - enabled: 1
+    path: Assets/01.Scenes/02-Level03.unity
+    guid: a9e5b0cc00028054f9bf8eae3d1521f0
+  - enabled: 1
+    path: Assets/01.Scenes/02-Level04.unity
+    guid: d7c5a0d90de61a242b21000c129b6e0b
+  - enabled: 1
+    path: Assets/01.Scenes/02-Level05.unity
+    guid: e81bbfa0b458faa46beee14b5f28cf45
+  - enabled: 1
+    path: Assets/01.Scenes/02-Level06.unity
+    guid: 11e982eaad81ae342b3a0ca9d467c234
+  - enabled: 1
+    path: Assets/01.Scenes/02-Level07.unity
+    guid: cf1b99e6cce5d3f428c03aa77f3b3a3e
+  - enabled: 1
+    path: Assets/01.Scenes/02-Level08.unity
+    guid: b0ef2b61e3682d141a7860579a514894
+  - enabled: 1
+    path: Assets/01.Scenes/02-Level09.unity
+    guid: dd298bfd648579e4bb740f4f5575aadf
+  - enabled: 1
+    path: Assets/01.Scenes/02-Level10.unity
+    guid: 27a9ade8206526f43ad2391a2402d8cf
+  - enabled: 1
+    path: Assets/01.Scenes/02-Level99.unity
+    guid: 2ac72c2fbe9af4741a3a7ae2a04d2865
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 967300e37f64f7845856c20b604d1d98,
+      type: 2}
